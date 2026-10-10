@@ -1,11 +1,2 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Hola Mundo') {
-            steps {
-                echo 'Hola Mundo desde Jenkins'
-            }
-        }
-    }
-}
+#!/bin/sh
+echo "Hola Mundo"
